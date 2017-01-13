@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery Pendulum Animation Demo</title>
+
+<style type="text/css">
+body {
+	marging:0px;
+}
+
+#demo-container {
+	width:105px;
+	position:absolute;
+	left:50%;
+	top:30px;
+}
+#pendulum-child {
+	width:293px;
+	height:61px;
+	background-image:url(nav_item.png);
+	position:absolute;
+	left:-25px;
+	top:220px;
+}
+
+#pendulum-parent {
+	width:27px;
+	height:22px;
+	display:none;
+}
+
+</style>
+
+<script src="jquery-1.11.1.js"></script>
+<script src="jquery-css-transform.js"></script>
+<script src="jquery-animate-css-rotate-scale.js"></script>
+<script type="text/javascript">
+$(function($) {
+        $(document).ready(function() {
+            var rotation = 20;
+            var swingtime = 1600;
+ 
+            function init() {
+                $('#pendulum-parent').animate({rotate: rotation}, 0, function () {
+                    $('#pendulum-parent').css("display", "block");
+                    rotation *= -1;
+                    pendulumswing();
+                });
+            }
+ 
+            function pendulumswing() {
+                $('#pendulum-parent').animate({rotate: rotation},swingtime, "swing", function(){
+                     rotation *= -1;
+                     pendulumswing();
+                });
+            }
+ 
+            init();
+    });
+});
+</script>
+</head>
+<body>
+<div id="demo-container">
+	<div id="pendulum-parent">
+        <img src="nav_pivot.png" alt=""/>
+    	<div id="pendulum-child"></div>
+    </div>
+</div>
+</script>
+</body>
+</html>

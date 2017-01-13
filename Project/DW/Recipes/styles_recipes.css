@@ -1,0 +1,93 @@
+@charset "utf-8";
+body {
+	background-color: #000000;
+	background-image: url(../Images/bg_bean_bag.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	width: 960px;
+	height: 2450px;
+	margin: 0 auto;
+}
+header {
+	font-family: ruthie;
+	color: #FFFFFF;
+	letter-spacing: 5px;
+	font-variant: small-caps;
+	font-weight: 400;
+}
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+#navHome a {
+	color: #FFFFFF;
+	font-size: 20px;
+	position: absolute;
+	top: 0px;
+	border-width: 2px;
+	border-style: dotted;
+	display: inline;
+	text-decoration: none;
+}
+#recipesSect {
+	width: 960px;
+	height: 2056px;
+	background-image: url(../Images/photo_clips.png);
+}
+.textBlock {
+	text-align: left;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	width: 500px;
+	line-height: 20px;
+	font-size: 21px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+.rightText {
+	float: right;	
+}
+.leftText {
+	float: left;
+}
+#shortBlackText {
+	top: -4px;
+}
+#ristrettoText {
+	top: -14px;
+}
+#longBlackText {
+	top: -1px;
+}
+#americanoText {
+	top: -8px;
+}
+#macchiatoText {
+	bottom: -18px;
+}
+#flatWhiteText {
+	bottom: -20px;
+}
+#latteText {
+	bottom: -40px;
+}
+#cappuccinoText {
+	bottom: -35px;
+}
+#moccaccinoText {
+	bottom: -38px;
+}
+#hotChocolateText {
+	bottom: -49px;
+}
+#noteText {
+	bottom: -20px;
+	font-size: 18px;
+	width: 600px;
+}
+

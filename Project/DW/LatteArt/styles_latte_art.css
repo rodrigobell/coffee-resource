@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #000000;
+	background-image: url(../Images/bg_bean_bag.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	width: 960px;
+	height: 1350px;
+	margin: 0 auto;
+	font-family: ruthie;
+	color: #FFFFFF;
+}
+h1 {
+	letter-spacing: 10px;
+	font-variant: small-caps;
+	font-weight: 400;
+	font-size: 50px;
+	text-align: center;
+}
+#navHome a {
+	color: #FFFFFF;
+	font-size: 20px;
+	position: absolute;
+	top: 0px;
+	border-width: 2px;
+	border-style: dotted;
+	display: inline;
+	text-decoration: none;
+}
+section {
+	height: 335px;
+}
+.text {
+	width: 200px;
+	float: left;
+	text-align: center;
+	padding-top: 130px;
+	letter-spacing: 10px;
+}
+.video {
+	width: 560px;
+	height: 315px;
+	float: left;
+}
+.image {
+	width: 200px;
+	float: left;
+	text-align: center;
+	padding-top: 70px;
+}
+#heartText {
+	letter-spacing: 18px;
+}
+#tulipText {
+	letter-spacing: 21px;
+}

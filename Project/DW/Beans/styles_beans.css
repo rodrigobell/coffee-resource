@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #000000;
+	background-image: url(../Images/bg_bean_bag.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	width: 960px;
+	height: 1100px;
+	margin: 0 auto;
+	color: #FFFFFF;
+}
+h1 {
+	font-family: ruthie;
+	letter-spacing: 5px;
+	font-variant: small-caps;
+	font-weight: 400;
+	font-size: 50px;
+	text-align: center;
+}
+#navHome a {
+	color: #FFFFFF;
+	font-family: ruthie;
+	font-size: 20px;
+	position: absolute;
+	top: 0px;
+	border-width: 2px;
+	border-style: dotted;
+	display: inline;
+	text-decoration: none;
+}
+#arabicaSect {
+	width: 430px;
+	float: left;
+	padding-left: 20px;
+}
+#robustaSect {
+	width: 450px;
+	float: right;
+	padding-right: 20px;
+}
+h2 {
+	font-family: ruthie;
+	letter-spacing: 5px;
+	font-variant: small-caps;
+	font-weight: 400;
+	text-align: center;
+	font-size: 40px;
+	margin: 0px;
+	padding: 0px;
+}
+ul {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	line-height: 22px;
+}
+#worldBeansImg {
+	text-align: center;		
+}
